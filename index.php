@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json');
 error_reporting(0);
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 
 function randomIp() {
     return rand(1,255).'.'.rand(0,255).'.'.rand(0,255).'.'.rand(1,255);
